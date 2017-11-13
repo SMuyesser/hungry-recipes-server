@@ -1,0 +1,19 @@
+{
+  "name": "sinan-s-page-server",
+  "version": "1.0.0",
+  "description": "sinans page server",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sinan muyesser",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "node": "^9.1.0",
+    "winston": "^2.4.0"
+  }
+}
