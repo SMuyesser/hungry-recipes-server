@@ -4,7 +4,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 
-const {API_KEY} = require('./config');
+const {API_KEY, PORT} = require('./config');
 
 // Load API key from environment, loaded from .env in glitch.com
 const GET_URL = 'http://food2fork.com/api/get';
@@ -44,6 +44,6 @@ app.get("/search", (request, response) => {
 
 // listen for requests :)
 const listener = app.listen(
-  process.env.PORT,
+  PORT,
   () => console.log('Your app is listening on port ' + listener.address().port)
 );
