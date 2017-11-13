@@ -4,8 +4,9 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 
+const {API_KEY} = require('./config');
+
 // Load API key from environment, loaded from .env in glitch.com
-const API_KEY = process.env.FOOD2FORK_KEY;
 const GET_URL = 'http://food2fork.com/api/get';
 const SEARCH_URL = 'http://food2fork.com/api/search';
 const app = express();
