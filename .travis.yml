@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+services: 
+deploy:
+  provider: heroku
+  api_key:
+    secure: FK5VNVJJb2+sDm5H2zi4DGMb1gvPQZbjS8roRem6pAcNGvZAAY1D3Y5ZxuD4iKFco65CRnbHAO/o1LOh9QcHdPBfniGSt94DepRcbJBZexsVZcwso/S5StnuOOWb79NEfbe0j3Wjn/TDBElysw8bS53i/qq3/+8tWKwiNL8ENfOao9inunuqvFDVpfjNDbWjMvo4KfTIYvbn31+9PdXisYIL5jiquMwkLzjWOUYUlxXnMDg1UojgWQb6RknLAyJs09v898rXbX/3/uYrsPLXUzzs8xl5MjXEqRpCpcsCSRcR2syxemJLcHHMGuPUkU+uhvc9a6ptDv7qCUfmu0OPwlMPjAtp31WURAzOHKWQIvxrPU8FWcMtq6ylY8KfjZQc3hAKtJp2u3Fz+uvkcOmg2Tr52plxPIIFY4ahyh0k0TNElipg6mkckbcOqmjpMnQU9Jo+qJwDNiMa7yJkjh/ZfZve9d85H9n4Of0N0eyRsQCPy16RduqJrSTfb+q909rlMf8okncyTJrNya9BEaRTiNnL4VmR1XcLBVPe9cYjTzSsshrxBRFwJEyQsrGtFXY4uHPxmWX4AiRMTdF2ZjB2k5Nx2/0d0caHfjiAfPwJe5KaUW24BUCBi3gyw0MsZCBH3gdFo7uYD8fS760WJG/dTvps6A6XSMB8a/iIoKZiGrQ=
+  app: ancient-reef-55040
+  on:
+    repo: SMuyesser/hungry-recipes-server
